@@ -23,4 +23,5 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
-echo "* * * * *  /home/username/Demo/executeCommand.sh" >> /var/spool/cron/crontabs/root
+crontab -e 
+# add the following to the opned file: * * * * *  /home/username/Demo/executeCommand.sh" >> /var/spool/cron/crontabs/root
