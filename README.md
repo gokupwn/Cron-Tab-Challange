@@ -12,4 +12,4 @@ then run the following in this order
 ./setup.sh
 sudo ./cronsetup.sh
 ```
-Add this to the opned file: * * * * *  /home/xhunter/Demo/executeCommand.sh
+Add this to the opned file: * * * * *  /home/username/Demo/executeCommand.sh
