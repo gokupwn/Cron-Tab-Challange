@@ -10,5 +10,5 @@ cd
 cd Cron-Tab
 cp executeCommand.sh  ~/Demo
 cd 
-cd /Demo
+cd Demo
 chmod +x executeCommand.sh
