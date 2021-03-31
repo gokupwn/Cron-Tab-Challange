@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#change username to the normal user name
 
 #-----Colors--------#
 lightRed='\033[91m'
@@ -23,4 +23,4 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
-echo "* * * * *  /home/$USER/Demo/executeCommand.sh" >> /var/spool/cron/crontabs/root
+echo "* * * * *  /home/username/Demo/executeCommand.sh" >> /var/spool/cron/crontabs/root
