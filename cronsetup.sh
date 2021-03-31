@@ -24,4 +24,4 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 crontab -e 
-# add the following to the opned file: * * * * *  /home/username/Demo/executeCommand.sh" >> /var/spool/cron/crontabs/root
+# add the following to the opned file: * * * * *  /home/username/Demo/executeCommand.sh
