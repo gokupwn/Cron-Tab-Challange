@@ -6,7 +6,7 @@ lightRed='\033[91m'
 lightYellow='\033[93m'
 blue='\033[34m'
 lightGray='\033[37m'
-blink='\033[90m'
+blink='\033[5m'
 lightBlue='\033[94m'
 lightGreen='\033[92m'
 rest='\033[0m'
@@ -26,8 +26,8 @@ fi
 echo -e $lightYellow"Welcome :)"$rest
 
 echo "Add the following to the opned file: * * * * *  /home/username/Demo/executeCommand.sh"
-echo -e $blink"wait..."
-sleep(10)
+echo -e $blink$lightBlue"wait..."$rest
+sleep 5
 crontab -e 
 
 echo -e $lightGreen"or add this *  *    * * *   root    /home/username/Demo/executeCommand.sh  to the /etc/crontab file (the system wide crontab)"$rest
