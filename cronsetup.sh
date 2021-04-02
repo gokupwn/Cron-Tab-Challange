@@ -23,11 +23,13 @@ if [[ $EUID -ne 0 ]]; then
   exit 1
 fi
 
-echo -e $blink$lightYellow"Welcome :)"$rest
+echo -e $lightYellow"Welcome :)"$rest
+
 crontab -e 
 # add the following to the opned file: * * * * *  /home/username/Demo/executeCommand.sh
 
 echo -e $lightGreen"or add this *  *    * * *   root    /home/username/Demo/executeCommand.sh  to the /etc/crontab file (the system wide crontab)"$rest
+echo -e $lightRed"Please Don't forget to change username to your machine username :("$rest
 echo -e $lightRed"cat cronsetup to get some note"$rest
 # or add this *  *    * * *   root    /home/username/Demo/executeCommand.sh  to the /etc/crontab file (the system wide crontab)
 # that's what happen in real world scenario
