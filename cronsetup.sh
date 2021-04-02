@@ -25,3 +25,6 @@ fi
 
 crontab -e 
 # add the following to the opned file: * * * * *  /home/username/Demo/executeCommand.sh
+
+# or add this *  *    * * *   root    /home/username/Demo/executeCommand.sh  to the /etc/crontab file (the system wide crontab)
+# that's what happen in real world scenario
