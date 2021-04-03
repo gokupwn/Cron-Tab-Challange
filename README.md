@@ -1,4 +1,8 @@
 # Cron-Tab
+## Note
+This is a part of privilege escalation challange
+<br>So after making all setup, and solving the challange make sure to delete the crontab because this crontab will make privilege escalation possible on your system
+## Setup
 ```bash
 git clone https://github.com/Hassan-Al-Achek/Cron-Tab.git
 cd Cron-Tab
